@@ -12,4 +12,25 @@ public class Peliculas {
         this.sala=sala;
         this.visualizado=visualizado;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public boolean isVisualizado() {
+        return visualizado;
+    }
+
+    public int getRating() {
+        return rating;
+    }
+
+    public int getSala() {
+        return sala;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+    
 }
