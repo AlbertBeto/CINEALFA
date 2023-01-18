@@ -1,0 +1,2 @@
+Avatar;5;1;8,99;N/n
+Lo que el viento se llevó;-2;5;13,00;S/n
