@@ -22,7 +22,7 @@ public class LectorExterno {
                 // Lectura del fichero
                 String linea;
                 while((linea=br.readLine())!=null)
-                    System.out.println(linea);
+                    Spliter.separador(linea);
             }
             catch(Exception e){
                 e.printStackTrace();
