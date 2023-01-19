@@ -41,6 +41,7 @@ public class OrdenarCoste implements Comparable<OrdenarCoste> {
         }
     }
 
+    //Creacion de objetos ?¿?¿?¿¿?
     public static void main(String[] args) {
         OrdenarCoste[]Cartelera =new OrdenarCoste[5];
         Cartelera[0] = new OrdenarCoste("Avatar", 5, 2, 8.99, "No vista");
