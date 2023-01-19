@@ -22,6 +22,9 @@ public class LectorExterno {
                 // Lectura del fichero
                 String linea;
                 while((linea=br.readLine())!=null)
+
+                    //Leemos las lineas del archivo, luego creamos un for y replicamos el funcionamiento de la creación
+                    //de arrays de objetos utilizada en  el ejercicio de patri
                     Spliter.separador(linea);
             }
             catch(Exception e){
