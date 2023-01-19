@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="Creación Clase de pruebas de arrays&#10;Declaración array de prueba&#10;Prueba Clase OrdenarNombre">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrdenarSala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ordenacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrdenarNombre.java" afterDir="false" />
+    <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="Creación Clase de pruebas de arrays&#10;Declaración array de prueba&#10;Prueba Clase OrdenarNombre&#10;Prueba Clase OrdenarSala&#10;Prueba Calse OrdenarVisto">
+      <change afterPath="$PROJECT_DIR$/src/OrdenarEstrellas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674078083998</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creación Clase de pruebas de arrays&#10;Declaración array de prueba&#10;Prueba Clase OrdenarNombre&#10;Prueba Clase OrdenarSala">
+      <created>1674133719636</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674133719636</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Creación Clase de pruebas de arrays&#10;Declaración array de prueba&#10;Prueba Clase OrdenarNombre&#10;Prueba Clase OrdenarSala&#10;Prueba Calse OrdenarVisto">
+      <created>1674133869566</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674133869566</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +149,8 @@
     <MESSAGE value="Creación Clase de pruebas de arrays" />
     <MESSAGE value="Creación Clase de pruebas de arrays&#10;Declaración array de prueba" />
     <MESSAGE value="Creación Clase de pruebas de arrays&#10;Declaración array de prueba&#10;Prueba Clase OrdenarNombre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación Clase de pruebas de arrays&#10;Declaración array de prueba&#10;Prueba Clase OrdenarNombre" />
+    <MESSAGE value="Creación Clase de pruebas de arrays&#10;Declaración array de prueba&#10;Prueba Clase OrdenarNombre&#10;Prueba Clase OrdenarSala" />
+    <MESSAGE value="Creación Clase de pruebas de arrays&#10;Declaración array de prueba&#10;Prueba Clase OrdenarNombre&#10;Prueba Clase OrdenarSala&#10;Prueba Calse OrdenarVisto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación Clase de pruebas de arrays&#10;Declaración array de prueba&#10;Prueba Clase OrdenarNombre&#10;Prueba Clase OrdenarSala&#10;Prueba Calse OrdenarVisto" />
   </component>
 </project>
