@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.*;
+import java.nio.file.Files;
 
 public class LectorExterno {
 
@@ -19,16 +20,23 @@ public class LectorExterno {
                 fr = new FileReader (archivo);
                 br = new BufferedReader(fr);
 
+
+
                 //Saber cuantas peliculas-lineas están en la lista
                 int cantidadPelis= (int)br.lines().count();
 
+
                 // Lectura del fichero
-                String linea;
+                String linea=br.readLine();
+                String[] pepe = new String[cantidadPelis];
                 while((linea=br.readLine())!=null)
 
                     //Leemos las lineas del archivo, luego creamos un for y replicamos el funcionamiento de la creación
                     //de arrays de objetos utilizada en  el ejercicio de patri
-                    Spliter.separador(linea);
+
+                           pepe=Spliter.separador(linea);
+                // Hay que ver como creamos el objeto con el nombre del primer campo del array otorgado.
+
             }
             catch(Exception e){
                 e.printStackTrace();

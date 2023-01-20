@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="Primer codigo y direcciónado del archivo a leer">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LectorExterno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LectorExterno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spliter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spliter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.OrdenarNombre">
     <configuration name="LectorExterno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LectorExterno" />
       <module name="CINEALFA" />
@@ -61,8 +59,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrdenarNombre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrdenarNombre" />
+      <module name="CINEALFA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrdenarNombre" />
+        <item itemvalue="Application.LectorExterno" />
         <item itemvalue="Application.LectorExterno" />
       </list>
     </recent_temporary>
@@ -90,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674067657257</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Uno rama Lector al principal. &#10;Falta modificar el llamado del lector.">
+      <created>1674219203854</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674219203854</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +122,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Creación .TXT para lectura archivo" />
     <MESSAGE value="Primer codigo y direcciónado del archivo a leer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer codigo y direcciónado del archivo a leer" />
+    <MESSAGE value="Uno rama Lector al principal. &#10;Falta modificar el llamado del lector." />
+    <option name="LAST_COMMIT_MESSAGE" value="Uno rama Lector al principal. &#10;Falta modificar el llamado del lector." />
   </component>
 </project>
