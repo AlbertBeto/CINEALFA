@@ -7,7 +7,7 @@ public class LectorExterno {
 
 
 
-        public static void main(String [] arg) {
+        public static void lector() {
             File archivo = null;
             FileReader fr = null;
             BufferedReader br = null;
