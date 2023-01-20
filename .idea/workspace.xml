@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="Primer codigo y direcciónado del archivo a leer">
-      <change afterPath="$PROJECT_DIR$/src/Spliter.java" afterDir="false" />
+    <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LectorExterno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LectorExterno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KVinAdgqEfCVfaRttuCSHDiWVf" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">

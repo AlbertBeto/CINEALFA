@@ -5,6 +5,10 @@ import java.io.*;
 
 public class LectorExterno {
 
+    private static Pelicula[] peliculas;
+
+    //HAy que convertir esta clase en un objeto estatico que pueda invocar metodos sin crear un objeto de la clase
+
 
 
         public static void main(String [] arg) {
@@ -21,7 +25,20 @@ public class LectorExterno {
 
                 // Lectura del fichero
                 String linea;
-                while((linea=br.readLine())!=null)
+                int nLineas = 0;
+                while((linea=br.readLine())!=null){
+                    nLineas++;
+                }
+
+                //No se si esto funciona, tras el merge lo comprobaremos xD
+
+                peliculas = new Pelicula[nLineas];
+                for (int i = 0; i < nLineas; i++) {
+                    linea = br.readLine();
+º                   Pelicula pelicula m= new Pelicula(Spliter.separador(linea));
+                    peliculas[i]=pelicula;
+
+                }
 
                     //Leemos las lineas del archivo, luego creamos un for y replicamos el funcionamiento de la creación
                     //de arrays de objetos utilizada en  el ejercicio de patri
