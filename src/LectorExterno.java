@@ -19,10 +19,16 @@ public class LectorExterno {
                 fr = new FileReader (archivo);
                 br = new BufferedReader(fr);
 
+                //Saber cuantas peliculas-lineas están en la lista
+                int cantidadPelis= (int)br.lines().count();
+
                 // Lectura del fichero
                 String linea;
                 while((linea=br.readLine())!=null)
-                    System.out.println(linea);
+
+                    //Leemos las lineas del archivo, luego creamos un for y replicamos el funcionamiento de la creación
+                    //de arrays de objetos utilizada en  el ejercicio de patri
+                    Spliter.separador(linea);
             }
             catch(Exception e){
                 e.printStackTrace();
