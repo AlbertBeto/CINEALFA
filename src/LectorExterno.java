@@ -27,22 +27,25 @@ public class LectorExterno {
 
 
                 //Saber cuantas peliculas-lineas están en la lista
-                int cantidadPelis= (int)br.lines().count();
+                int nLineas= (int)br.lines().count();
 
 
                 // Lectura del fichero
                 String linea;
-                int nLineas = 0;
+                /*int nLineas = 0;
                 while((linea=br.readLine())!=null){
                     nLineas++;
                 }
 
-                //No se si esto funciona, tras el merge lo comprobaremos xD
+                 */
 
+                //No se si esto funciona, tras el merge lo comprobaremos xD
+                br.close();
+                br = new BufferedReader(new FileReader(archivo));
                 peliculas = new Pelicula[nLineas];
                 for (int i = 0; i < nLineas; i++) {
-                    linea = br.readLine();
-                    Pelicula m= new Pelicula(Spliter.separador(linea));
+                    //linea = br.readLine();
+                    Pelicula m = new Pelicula(Spliter.separador(br.readLine()));
                     peliculas[i]=m;
                 }
 
