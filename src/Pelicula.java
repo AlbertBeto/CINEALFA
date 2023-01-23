@@ -1,11 +1,11 @@
-public class Peliculas {
+public class Pelicula {
     private String nombre;
     private boolean visualizado;
     private int rating;
     private int sala;
     private double precio;
 
-    public Peliculas(String[] parametros){
+    public Pelicula(String[] parametros){
         this.nombre=parametros[0];
         this.rating=Integer.parseInt(parametros[1]);
         this.precio=Double.parseDouble(parametros[2]);

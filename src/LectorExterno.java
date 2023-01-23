@@ -11,8 +11,8 @@ public class LectorExterno {
     //HAy que convertir esta clase en un objeto estatico que pueda invocar metodos sin crear un objeto de la clase
 
 
-
-        public static void main(String [] arg) {
+        private LectorExterno(){}
+        public static Pelicula[] lector() {
             File archivo = null;
             FileReader fr = null;
             BufferedReader br = null;
@@ -42,22 +42,21 @@ public class LectorExterno {
                 peliculas = new Pelicula[nLineas];
                 for (int i = 0; i < nLineas; i++) {
                     linea = br.readLine();
-º                   Pelicula pelicula m= new Pelicula(Spliter.separador(linea));
-                    peliculas[i]=pelicula;
-
+                    Pelicula m= new Pelicula(Spliter.separador(linea));
+                    peliculas[i]=m;
                 }
-                String linea=br.readLine();
-                String[] pepe = new String[cantidadPelis];
-                while((linea=br.readLine())!=null)
+
+                //String linea=br.readLine();
+                //String[] pepe = new String[cantidadPelis];
+                //while((linea=br.readLine())!=null)
 
                     //Leemos las lineas del archivo, luego creamos un for y replicamos el funcionamiento de la creación
                     //de arrays de objetos utilizada en  el ejercicio de patri
 
-                           pepe=Spliter.separador(linea);
+                           //pepe=Spliter.separador(linea);
                 // Hay que ver como creamos el objeto con el nombre del primer campo del array otorgado.
 
-            }
-            catch(Exception e){
+            }catch(Exception e){
                 e.printStackTrace();
             }finally{
                 // En el finally cerramos el fichero, para asegurarnos
@@ -71,6 +70,7 @@ public class LectorExterno {
                     e2.printStackTrace();
                 }
             }
+            return peliculas;
         }
     }
 
