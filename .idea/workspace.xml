@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="Primer codigo y direcciónado del archivo a leer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDPelis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BDPelis.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/LectorExterno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CINEALFA/LectorExterno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/Pelicula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CINEALFA/Pelicula.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LectorExterno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LectorExterno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pelicula.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,11 +150,6 @@
           <url>file://$PROJECT_DIR$/src/Pelicula.java</url>
           <line>8</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LectorExterno.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Pelicula.java</url>

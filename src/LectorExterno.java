@@ -28,30 +28,15 @@ public class LectorExterno {
 
                 //Saber cuantas peliculas-lineas están en la lista
                 int nLineas= (int)br.lines().count();
-
-
-                // Lectura del fichero
-                String linea;
-                /*int nLineas = 0;
-                while((linea=br.readLine())!=null){
-                    nLineas++;
-                }
-
-                 */
-
                 //No se si esto funciona, tras el merge lo comprobaremos xD
                 br.close();
                 br = new BufferedReader(new FileReader(archivo));
                 peliculas = new Pelicula[nLineas];
                 for (int i = 0; i < nLineas; i++) {
-                    //linea = br.readLine();
                     Pelicula m = new Pelicula(Spliter.separador(br.readLine()));
                     peliculas[i]=m;
                 }
 
-                //String linea=br.readLine();
-                //String[] pepe = new String[cantidadPelis];
-                //while((linea=br.readLine())!=null)
 
                     //Leemos las lineas del archivo, luego creamos un for y replicamos el funcionamiento de la creación
                     //de arrays de objetos utilizada en  el ejercicio de patri
