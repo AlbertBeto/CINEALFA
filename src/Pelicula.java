@@ -36,5 +36,9 @@ public class Pelicula {
     public double getPrecio() {
         return precio;
     }
+
+    public void print(){
+        System.out.print("Titulo: "+ nombre+" Calificación: "+rating+" Sala: "+sala+" precio: "+precio+" Visualizada: "+visualizado);
+    }
     
 }

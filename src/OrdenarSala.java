@@ -65,4 +65,5 @@ public class OrdenarSala implements Comparable<OrdenarSala> {
         }
         return 0;
     }
-}
+
+    }

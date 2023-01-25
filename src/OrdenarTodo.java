@@ -39,8 +39,6 @@ public class OrdenarTodo implements Comparable<OrdenarTodo> {
     @Override
     public int compareTo(OrdenarTodo o) {
         int resultado = 0;
-
-
         if (this.estrellas < o.getEstrellas()) {
             return 1;
         } else if (this.estrellas > o.getEstrellas()) {
@@ -55,7 +53,6 @@ public class OrdenarTodo implements Comparable<OrdenarTodo> {
             return -1;
         } else if (this.coste>getCoste()) {
             return 1;
-
         }
         if(visto.startsWith(" N")){
             return -1;
