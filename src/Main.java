@@ -6,22 +6,14 @@ public class Main {
             peliculas[i].print();
             System.out.println();
         }
-        RatingSort.sort(peliculas);
+        Sorter.alphaSortDesc(peliculas);
         System.out.println();
         System.out.println();
         for (int i = 0; i < peliculas.length; i++) {
             peliculas[i].print();
             System.out.println();
         }
-        SalaSort.sort(peliculas);
-        System.out.println();
-        System.out.println();
-        for (int i = 0; i < peliculas.length; i++) {
-            peliculas[i].print();
-            System.out.println();
-        }
-
-        AlphabeticSort.sort(peliculas);
+        Sorter.alphaSortAsc(peliculas);
         System.out.println();
         System.out.println();
         for (int i = 0; i < peliculas.length; i++) {
@@ -29,7 +21,30 @@ public class Main {
             System.out.println();
         }
 
-        PriceSort.sort(peliculas);
+        Sorter.salaSortDesc(peliculas);
+        System.out.println();
+        System.out.println();
+        for (int i = 0; i < peliculas.length; i++) {
+            peliculas[i].print();
+            System.out.println();
+        }
+        Sorter.salaSortAsc(peliculas);
+        System.out.println();
+        System.out.println();
+        for (int i = 0; i < peliculas.length; i++) {
+            peliculas[i].print();
+            System.out.println();
+        }
+
+        Sorter.priceSortDesc(peliculas);
+        System.out.println();
+        System.out.println();
+        for (int i = 0; i < peliculas.length; i++) {
+            peliculas[i].print();
+            System.out.println();
+        }
+
+        Sorter.priceSortAsc(peliculas);
         System.out.println();
         System.out.println();
         for (int i = 0; i < peliculas.length; i++) {

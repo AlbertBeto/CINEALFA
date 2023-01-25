@@ -5,21 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="Primer codigo y direcciónado del archivo a leer">
-      <change afterPath="$PROJECT_DIR$/src/AlphabeticSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PriceSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RatingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SalaSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDPelis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BDPelis.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/LectorExterno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CINEALFA/LectorExterno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/AlphabeticSort.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CINEALFA/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/Pelicula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CINEALFA/Pelicula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/PriceSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlphabeticSort.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdenacionVisto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrdenacionVisto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdenarSala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrdenarSala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdenarTodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrdenarTodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrdenacionVisto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrdenarCoste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrdenarEstrellas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrdenarNombre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrdenarSala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrdenarTodo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PriceSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RatingSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SalaSort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
