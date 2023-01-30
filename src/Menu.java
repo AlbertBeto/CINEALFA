@@ -4,18 +4,20 @@ public class Menu {
     public static void main(String[] args) {
         Pelicula[] peliculas = LectorExterno.lector();
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please introduce la opción deseada.");
-        System.out.println("1 Ordenación por nombre");
-        System.out.println("2 Ordenación por estrellas");
-        System.out.println("3 Ordenación por sala");
-        System.out.println("4 Ordenación por precio");
-        System.out.println("5 Ordenación por si la has visto o no");
-        System.out.println("0 Salir de la ordenación");
 
-        int opciones = sc.nextInt();
         boolean salir = false;
 
         while (salir == false) {
+            System.out.println("Please introduce la opción deseada.");
+            System.out.println("1 Ordenación por nombre");
+            System.out.println("2 Ordenación por estrellas");
+            System.out.println("3 Ordenación por sala");
+            System.out.println("4 Ordenación por precio");
+            System.out.println("5 Ordenación por si la has visto o no");
+            System.out.println("0 Salir de la ordenación");
+
+            int opciones = sc.nextInt();
+
             switch (opciones) {
                 case 1:
                     //Ordenacion por nombre
@@ -27,12 +29,12 @@ public class Menu {
                         case 1:
                             Sorter.alphaSortDesc(peliculas);
                             printCompleto(peliculas);
-                            opciones = 0;
+
                             break;
                         case 2:
                             Sorter.alphaSortAsc(peliculas);
                             printCompleto(peliculas);
-                            opciones = 0;
+
                             break;
                     }
                     break;
@@ -46,9 +48,11 @@ public class Menu {
                     switch (ordenacion2) {
                         case 1:
                             Sorter.ratingSortAsc(peliculas);
+                            printCompleto(peliculas);
                             break;
                         case 2:
                             Sorter.ratingSortDesc(peliculas);
+                            printCompleto(peliculas);
                             break;
                     }
                     break;
@@ -61,9 +65,11 @@ public class Menu {
                     switch (ordenacion3) {
                         case 1:
                             Sorter.salaSortAsc(peliculas);
+                            printCompleto(peliculas);
                             break;
                         case 2:
                             Sorter.salaSortDesc(peliculas);
+                            printCompleto(peliculas);
                             break;
                     }
                     break;
@@ -76,16 +82,17 @@ public class Menu {
                     switch (ordenacion4) {
                         case 1:
                             Sorter.priceSortAsc(peliculas);
-                            opciones = 0;
+                            printCompleto(peliculas);
                             break;
                         case 2:
                             Sorter.priceSortDesc(peliculas);
-                            opciones = 0;
+                            printCompleto(peliculas);
                             break;
                     }
                     break;
                 case 5:
-                    //Ordenar por visto si o no
+                   Sorter.priceSortAsc(peliculas);
+                   printCompleto(peliculas);
                     break;
 
                 case 0:
