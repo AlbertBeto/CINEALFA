@@ -8,19 +8,24 @@ public class Menu {
         boolean salir = false;
 
         System.out.println("Bienvenido a la versión 1.0 del gestor de peliculas Alpha.");
+        System.out.println(" ");
 //Para a versión queremos incluir la opción de escoger una de las peliculas de lista y poder modificar si se ha visto o no.
 
 
         while (salir == false) {
 
             System.out.println("Por favor, introduce la opción deseada.");
+            System.out.println("---------------------------------------");
             System.out.println("1 Imprimir el listado de peliculas");
-            System.out.println("2 Ordenación por nombre");
-            System.out.println("3 Ordenación por estrellas");
-            System.out.println("4 Ordenación por sala");
-            System.out.println("5 Ordenación por precio");
-            System.out.println("6 Ordenación por si la has visto o no");
+            System.out.println("-------- Ordenación e impresión -------");
+            System.out.println("2 por nombre");
+            System.out.println("3 por estrellas");
+            System.out.println("4 por sala");
+            System.out.println("5 por precio");
+            System.out.println("6 por vista o no vista");
+            System.out.println("--------- Filtro e impresión ----------");
             System.out.println("7 Escoge cuantas opciones mostrar");
+            System.out.println("---------------------------------------");
             System.out.println("0 Salir de la ordenación");
 
             int opciones = sc.nextInt();
