@@ -171,4 +171,24 @@ public class Menu {
         }
     }
 
+    public static Pelicula[] noVistas(Pelicula[] peliculas){
+        System.out.println();
+        int counter=0;
+        for (int i = 0; i < peliculas.length; i++) {
+            if (!peliculas[i].isVisualizado())
+                counter++;
+
+        }
+        Pelicula[] temp = new Pelicula[counter];
+        counter=0;
+        for (int i = 0; i < peliculas.length; i++) {
+            if (!peliculas[i].isVisualizado())
+                temp[counter++]=peliculas[i];
+
+        }
+        return temp;
+    }
+
+
+    
 }
