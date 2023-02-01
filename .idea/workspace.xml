@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="Primer codigo y direcciónado del archivo a leer">
+    <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CINEALFA/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CINEALFA/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/OrdenarCoste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/OrdenarEstrellas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/OrdenarNombre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/OrdenarSala.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/OrdenarTodo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/OrdenarVisto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/RatingSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/SalaSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/Sorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CINEALFA/Sorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674219203854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="MOdificado el menu para hacerlo mas visible, incluir la opción de volver a menu o salir despues de imprimir.">
+      <created>1675253045019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675253045019</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +166,8 @@
     <MESSAGE value="Creación .TXT para lectura archivo" />
     <MESSAGE value="Primer codigo y direcciónado del archivo a leer" />
     <MESSAGE value="Uno rama Lector al principal. &#10;Falta modificar el llamado del lector." />
-    <option name="LAST_COMMIT_MESSAGE" value="Uno rama Lector al principal. &#10;Falta modificar el llamado del lector." />
+    <MESSAGE value="MOdificado el menu para hacerlo mas visible, incluir la opción de volver a menu o salir despues de imprimir." />
+    <option name="LAST_COMMIT_MESSAGE" value="MOdificado el menu para hacerlo mas visible, incluir la opción de volver a menu o salir despues de imprimir." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

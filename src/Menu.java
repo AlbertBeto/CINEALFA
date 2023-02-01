@@ -16,6 +16,7 @@ public class Menu {
             System.out.println("3 Ordenación por sala");
             System.out.println("4 Ordenación por precio");
             System.out.println("5 Ordenación por si la has visto o no");
+            System.out.println("6 Escoge cuantas opciones mostrar");
             System.out.println("0 Salir de la ordenación");
 
             int opciones = sc.nextInt();
@@ -97,6 +98,11 @@ public class Menu {
                    printCompleto(peliculas);
                     break;
 
+                case 6:
+                    System.out.println("Cuantas peliculas quieres mostrar?");
+                    int cuantasMostrar = sc.nextInt();
+                    printparcial(peliculas,cuantasMostrar);
+
                 case 0:
                     //Salir de la ordenacion
                     salir = true;
@@ -126,4 +132,13 @@ public class Menu {
             System.out.println();
         }
     }
+
+    public static void printparcial(Pelicula[] peliculas, int cuantasMostrar){
+        System.out.println(" ");
+        for (int i = 0; i < cuantasMostrar; i++) {
+            peliculas[i].print();
+            System.out.println();
+        }
+    }
+
 }
