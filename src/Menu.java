@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Menu {
-    public static void cartelera() {
+    public static void main(String[] args) {
         Pelicula[] peliculas = LectorExterno.lector();
         Scanner sc = new Scanner(System.in);
 
@@ -95,6 +95,7 @@ public class Menu {
                     System.out.println("1. Ordenación ascendente ");
                     System.out.println("2. Ordenación descendente ");
                     int ordenacion4 = sc.nextInt();
+
                     switch (ordenacion4) {
                         case 1:
                             Sorter.priceSortAsc(peliculas);
@@ -171,7 +172,9 @@ public class Menu {
         }
     }
 
-    public static Pelicula[] noVistas(Pelicula[] peliculas){
+/*
+
+    public static Pelicula[] filtering(Pelicula[] peliculas){
         System.out.println();
         int counter=0;
         for (int i = 0; i < peliculas.length; i++) {
@@ -187,8 +190,11 @@ public class Menu {
 
         }
         return temp;
+
     }
-
-
     
+ */
+
+
+
 }
