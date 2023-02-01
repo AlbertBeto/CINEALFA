@@ -108,9 +108,13 @@ public class Menu {
                     break;
 
                 case 7:
-                    System.out.println("Cuantas peliculas quieres mostrar?");
+                    System.out.println("Cuantas peliculas quieres mostrar? 0 para mostrar todas.");
                     int cuantasMostrar = sc.nextInt();
-                    printparcial(peliculas,cuantasMostrar);
+                    if(cuantasMostrar==0){
+                        printCompleto(peliculas);
+                    }else{
+                    printparcial(peliculas,cuantasMostrar);}
+                    break;
 
                 case 0:
                     //Salir de la ordenacion
