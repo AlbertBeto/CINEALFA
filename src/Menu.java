@@ -107,10 +107,22 @@ public class Menu {
                     }
                     break;
                 case 6:
-
-                   Sorter.priceSortAsc(peliculas);
-                   printCompleto(peliculas);
+                    System.out.println("Elige la opcion de ordenación: ");
+                    System.out.println("1. No visualizadas primero ");
+                    System.out.println("2. Visualizadas Primero ");
+                    int ordenacion5= sc.nextInt();
+                    switch (ordenacion5){
+                        case 1:
+                            Sorter.visuSortAsc(peliculas);
+                            printCompleto(peliculas);
+                            break;
+                        case 2:
+                            Sorter.visuSortDesc(peliculas);
+                            printCompleto(peliculas);
+                            break;
+                    }
                     break;
+
 
                 case 7:
                     System.out.println("Cuantas peliculas quieres mostrar? 0 para mostrar todas.");
