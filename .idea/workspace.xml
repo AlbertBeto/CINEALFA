@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="Primer codigo y direcciónado del archivo a leer">
-      <change afterPath="$PROJECT_DIR$/src/Sorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/AlphabeticSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CINEALFA/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/PriceSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlphabeticSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdenacionVisto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdenarCoste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdenarEstrellas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdenarNombre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdenarSala.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdenarTodo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PriceSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RatingSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SalaSort.java" beforeDir="false" />
+    <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aruiz/Desktop/leerFicheros&quot;
+    &quot;last_opened_file_path&quot;: &quot;B:/Cerbell/GSDAW/PROGRAMACIONJAVA/RETOS/CINE ALFA/CINEALFA&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -66,9 +51,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Menu">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CINEALFA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Menu" />
       <module name="CINEALFA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Menu" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.OrdenarTodo" />
       </list>
@@ -91,7 +84,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96d0e645-42c1-4378-b808-c720b24a9820" name="Changes" comment="" />
+      <changelist id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="Primer codigo y direcciónado del archivo a leer" />
       <created>1674066316821</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -118,7 +111,42 @@
       <option name="project" value="LOCAL" />
       <updated>1674219203854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="MOdificado el menu para hacerlo mas visible, incluir la opción de volver a menu o salir despues de imprimir.">
+      <created>1675253045019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675253045019</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Creada la 6 opción para escoger cuantas mostrar.">
+      <created>1675253653579</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675253653579</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Amplio lista de peliculas">
+      <created>1675254429737</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675254429737</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Incorporo en menu la opción de imprimir el listado tal como está memorizado">
+      <created>1675255054417</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675255054417</updated>
+    </task>
+    <task id="LOCAL-00008" summary="MOdificado la opción 7 del menu de cuantas mostrar">
+      <created>1675255253332</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675255253332</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,7 +192,12 @@
     <MESSAGE value="Creación .TXT para lectura archivo" />
     <MESSAGE value="Primer codigo y direcciónado del archivo a leer" />
     <MESSAGE value="Uno rama Lector al principal. &#10;Falta modificar el llamado del lector." />
-    <option name="LAST_COMMIT_MESSAGE" value="Uno rama Lector al principal. &#10;Falta modificar el llamado del lector." />
+    <MESSAGE value="MOdificado el menu para hacerlo mas visible, incluir la opción de volver a menu o salir despues de imprimir." />
+    <MESSAGE value="Creada la 6 opción para escoger cuantas mostrar." />
+    <MESSAGE value="Amplio lista de peliculas" />
+    <MESSAGE value="Incorporo en menu la opción de imprimir el listado tal como está memorizado" />
+    <MESSAGE value="MOdificado la opción 7 del menu de cuantas mostrar" />
+    <option name="LAST_COMMIT_MESSAGE" value="MOdificado la opción 7 del menu de cuantas mostrar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

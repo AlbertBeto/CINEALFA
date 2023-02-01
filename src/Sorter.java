@@ -127,5 +127,33 @@ public class Sorter {
             }
         }
     }
+    public static void visuSortAsc(Pelicula[] cartelera) {
+        int n = cartelera.length;
+        Pelicula temp;
+        for(int i=0; i < n; i++){
+            for(int j=1; j < (n-i); j++){
+                if(cartelera[j - 1].isVisualizado() && !cartelera[j].isVisualizado()){
+                    //swap elements
+                    temp = cartelera[j-1];
+                    cartelera[j-1] = cartelera[j];
+                    cartelera[j] = temp;
+                }
+            }
+        }
+    }
+    public static void visuSortDesc(Pelicula[] cartelera) {
+        int n = cartelera.length;
+        Pelicula temp;
+        for(int i=0; i < n; i++){
+            for(int j=1; j < (n-i); j++){
+                if(!cartelera[j - 1].isVisualizado() && cartelera[j].isVisualizado()){
+                    //swap elements
+                    temp = cartelera[j-1];
+                    cartelera[j-1] = cartelera[j];
+                    cartelera[j] = temp;
+                }
+            }
+        }
+    }
 
 }
