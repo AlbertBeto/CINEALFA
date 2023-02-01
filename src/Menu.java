@@ -7,6 +7,8 @@ public class Menu {
 
         boolean salir = false;
 
+
+
         while (salir == false) {
             System.out.println("Please introduce la opción deseada.");
             System.out.println("1 Ordenación por nombre");
@@ -43,7 +45,6 @@ public class Menu {
                     System.out.println("Elige la opcion de ordenación: ");
                     System.out.println("1. Ordenación ascendente ");
                     System.out.println("2. Ordenación descendente ");
-                    System.out.println("0. Salir ");
                     int ordenacion2 = sc.nextInt();
                     switch (ordenacion2) {
                         case 1:
@@ -91,6 +92,7 @@ public class Menu {
                     }
                     break;
                 case 5:
+
                    Sorter.priceSortAsc(peliculas);
                    printCompleto(peliculas);
                     break;
@@ -100,9 +102,25 @@ public class Menu {
                     salir = true;
                     break;
             }
+            System.out.println(" ");
+            System.out.println("Pulsa 0 para salir o cualquier otro numero para volver al menu.");
+            int menusalir = sc.nextInt();
+            switch (menusalir){
+                case 0:
+                    salir =true;
+                    break;
+
+                default:
+                    System.out.println("");
+
+        }
+
+
+
         }
     }
     public static void printCompleto(Pelicula[] peliculas){
+        System.out.println(" ");
         for (int i = 0; i < peliculas.length; i++) {
             peliculas[i].print();
             System.out.println();
