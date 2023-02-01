@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30133999-503b-49dd-a42a-90d677e02ada" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/BDPelis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BDPelis.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CINEALFA/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CINEALFA/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675253653579</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Amplio lista de peliculas">
+      <created>1675254429737</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675254429737</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +182,8 @@
     <MESSAGE value="Uno rama Lector al principal. &#10;Falta modificar el llamado del lector." />
     <MESSAGE value="MOdificado el menu para hacerlo mas visible, incluir la opción de volver a menu o salir despues de imprimir." />
     <MESSAGE value="Creada la 6 opción para escoger cuantas mostrar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creada la 6 opción para escoger cuantas mostrar." />
+    <MESSAGE value="Amplio lista de peliculas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amplio lista de peliculas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
